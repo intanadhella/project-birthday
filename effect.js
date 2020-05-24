@@ -26,29 +26,24 @@ $('document').ready(function(){
 		}, 5000);
 
 		setTimeout(() => {
-			console.log('bannarComing')
-			bannarComing()
-		}, 11000);
-
-		setTimeout(() => {
 			console.log('balloonsFlying')
 			balloonsFlying()
-		}, 17000);
+		}, 11000);
 
 		setTimeout(() => {
 			console.log('cakeFadeIn')
 			cakeFadeIn()
-		}, 22000);
+		}, 17000);
 		
 		setTimeout(() => {
 			console.log('lightCandle')
 			lightCandle()
-		}, 25000);
+		}, 19000);
 
 		setTimeout(() => {
 			console.log('wishMessage')
 			wishMessage()
-		}, 26000);
+		}, 20000);
 
 		// setTimeout(() => {
 			
@@ -110,10 +105,6 @@ function playSong() {
 	// $('body').addClass('peach-after');
 }
 
-function bannarComing() {
-	$('.bannar').addClass('bannar-come');
-}
-
 function balloonsFlying() {
 	$('.balloon-border').animate({
 		top: -500
@@ -154,31 +145,31 @@ function wishMessage() {
 	$('#b6').attr('id', 'b66')
 	$('#b7').attr('id', 'b77')
 	$('#b11').animate({
-		top: 200,
+		top: 50,
 		left: vw - 150
 	}, 500);
 	$('#b22').animate({
-		top: 200,
+		top: 50,
 		left: vw - 50
 	}, 500);
 	$('#b33').animate({
-		top: 200,
+		top: 50,
 		left: vw + 50
 	}, 500);
 	$('#b44').animate({
-		top: 300,
+		top: 150,
 		left: vw - 200
 	}, 500);
 	$('#b55').animate({
-		top: 300,
+		top: 150,
 		left: vw - 100
 	}, 500);
 	$('#b66').animate({
-		top: 300,
+		top: 150,
 		left: vw + 0
 	}, 500);
 	$('#b77').animate({
-		top: 300,
+		top: 150,
 		left: vw + 100
 	}, 500);
 	$('.balloons').css('opacity', '0.9');
