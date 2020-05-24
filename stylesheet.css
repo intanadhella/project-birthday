@@ -12,8 +12,11 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
-	
+	background-color: rgb(154,183,211);
+	background-image: url(/assets/images/risa.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 .peach-after {
 	-webkit-animation:peach_alive linear 8s infinite;
